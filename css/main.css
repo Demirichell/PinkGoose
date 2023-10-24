@@ -24,6 +24,12 @@ h1{
     margin-top: 4px;
     font-size: 40px;
 }
+h2{
+    font-size: 54px;
+    color: aliceblue;
+    padding-left: 280px;
+    flex-shrink:calc(20px);
+}
 h3 {
     color: aliceblue;
     font-size: large;
@@ -31,5 +37,5 @@ h3 {
 
 }
 .frontp{
-    
+
 }
