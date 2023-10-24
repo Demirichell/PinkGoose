@@ -18,3 +18,18 @@ body {
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 7%, rgba(16, 17, 41, 1) 46%, rgba(0, 0, 0, 1) 87%);
 }
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 4px;
+    font-size: 40px;
+}
+h3 {
+    color: aliceblue;
+    font-size: large;
+    margin-top: 15px;
+
+}
+.frontp{
+    
+}

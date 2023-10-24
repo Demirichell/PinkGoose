@@ -1,88 +1,66 @@
-.content1 {
-    display: flex;
-    height: 150px;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-
+#homecontent {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
-.content2 {
-    display: flex;
-    height: 60%;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    padding-top: 20px;
-}
-
-.test {
-    margin-top: 40px;
-    width: 270px;
-    display: flex;
-    justify-content: center;
-
-
-}
-
-.test {
-    margin-top: 40px;
-    width: 300px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-}
-
-.contentbox {
-    display: flex;
-    width: 270px;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.test2 {
-
-    width: 400px;
-}
-
 .fronttext {
-    color: aliceblue;
-    padding-top: 30px;
+  color: var(--fg-foreground-primary, #fff);
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px; /* 113.889% */
+  letter-spacing: 1px;
 }
-
-.arrow {
-    padding-top: 60px;
-    height: 15px;
-    width: 15px;
+.frontp {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 46px;
+  padding-bottom: 40px;
 }
-
+.starttextbox {
+  width: 600px;
+  /* border: 1px outset rgb(22, 8, 219);  */
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+.starttextbox2 {
+  width: 600px;
+  /* border: 1px outset rgb(22, 8, 219);  */
+}
+.box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px outset red */
+}
+.buttonplacement {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* border: 1px outset rgb(22, 8, 219);  */
+}
 .started {
-    background-color: rgba(206, 170, 255, 1);
-    border-radius: 12px;
-    border: none;
-    color: rgb(16, 15, 15);
-    padding: 15px 32px;
-    text-decoration: none;
-    font-size: 14px;
-    margin: 6px 2px;
-    cursor: pointer;
-    text-align: center;
-    font-weight: bold;
-    line-height: 0px;
-    height: 40px;
-    margin-top: 30px;
+  border-radius: 16px;
+  background: #ceaaff;
+  width: 118px;
+  height: 48px;
+  font-weight: 700;
 }
-
-.stars {
+img {
+  width: 20.5px;
+  height: 21px;
+}
+.arrowplacement{
     display: flex;
-    height: 150px;
     justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-.stars1 {
-    height: 80px;
+    width: 600px; 
+    /* border: 1px outset rgb(22, 8, 219); */
+    padding-top: 134px ;
 }
