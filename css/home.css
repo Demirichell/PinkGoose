@@ -120,3 +120,30 @@ img {
     gap: 8px;
 
 }
+
+.cards {
+    width: 1137px;
+    height: 500px;
+    padding-top: 40px;
+
+    position: relative;
+
+
+}
+
+.projects {
+    height: 32px;
+    width: auto;
+    background-color: rgba(255, 180, 211, 1);
+    position: absolute;
+    margin-top: 470px;
+    border-radius: 100px;
+}
+
+.cardsplacement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
