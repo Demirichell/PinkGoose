@@ -252,6 +252,7 @@ li.summaryitem:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .iconwords {
@@ -266,4 +267,35 @@ li.summaryitem:hover {
     align-content: center;
     gap: 35px;
     padding-bottom: 250px;
+}
+
+.users {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+.help2 {
+    width: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+ul.starlist {
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1137px;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    list-style-type: none;
+    display: flex;
+}
+
+li.staritems {
+    display: inline;
+    font-size: 40px;
+
 }
