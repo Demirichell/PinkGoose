@@ -96,6 +96,7 @@ img {
     display: flex;
     width: 33%;
     width: fit-content;
+    padding-bottom: 40px;
 }
 
 .option {
@@ -184,6 +185,7 @@ ul.summary {
     text-align: center;
     font-size: 54px;
     display: inline-block;
+    padding-bottom: 200px;
 
 }
 
@@ -206,4 +208,16 @@ li.summaryitem:hover {
     flex-wrap: wrap;
     display: flex;
     text-align: center;
+}
+
+.bstars {
+    width: 55px;
+    height: 43px;
+
+}
+
+.pstars {
+    width: 55px;
+    height: 43px;
+    padding-left: -200px;
 }
