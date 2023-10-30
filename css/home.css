@@ -62,7 +62,7 @@
     font-weight: 700;
 }
 
-img {
+.arrow {
     width: 20.5px;
     height: 21px;
     padding-bottom: 60px;
@@ -136,7 +136,7 @@ img {
     width: auto;
     background-color: rgba(255, 180, 211, 1);
     position: absolute;
-    margin-top: 470px;
+    margin-top: 540px;
     border-radius: 100px;
 }
 
@@ -220,4 +220,28 @@ li.summaryitem:hover {
     width: 55px;
     height: 43px;
     padding-left: -200px;
+}
+
+.icondcardsbox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.iconcards {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #2A3744;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.icons {
+    width: 100px;
+    height: 100px;
 }
