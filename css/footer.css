@@ -1,0 +1,76 @@
+footer {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background: #121E28;
+}
+
+.footerleft {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+}
+
+.footermid {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerright {
+    display: flex;
+    width: 33%;
+    justify-content: left;
+    align-items: center;
+}
+
+.yellowtext {
+    color: var(--yellow, #FFC803);
+
+}
+
+.twitterframe {
+    margin: 5px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: rgba(119, 230, 255, 0.15)
+}
+
+.telegramframe {
+    margin: 5px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: rgba(119, 149, 255, 0.15);
+}
+
+.youtubeframe {
+    margin: 5px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: rgba(247, 135, 135, 0.15);
+}
+
+.discordframe {
+    margin: 5px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: rgba(146, 119, 255, 0.15);
+}

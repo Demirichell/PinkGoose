@@ -403,7 +403,8 @@ input::placeholder {
     height: 382px;
     background: #E2C1F9;
     border-radius: 20px;
-    margin: 20px;
+    margin: 10px;
+    padding-bottom: -20px;
 }
 
 .presscard3 {
@@ -411,7 +412,7 @@ input::placeholder {
     height: 382px;
     background: #DBE268;
     border-radius: 20px;
-    margin: 24px;
+    margin: 10px;
 }
 
 .cardtitle {
@@ -486,47 +487,30 @@ input::placeholder {
     margin-left: 10px;
 }
 
-.bluecard1 {
+.bluecard {
     border-radius: 20px;
     border: 2px solid #2A3744;
     background: #121E28;
-    width: 361px;
+    width: 370px;
     height: 334px;
     backdrop-filter: blur(2px);
-    margin: 10px;
+    margin: 30px;
+
+
 
 }
 
-.bluecard2 {
-    border-radius: 20px;
-    border: 2px solid #2A3744;
-    background: #121E28;
-    width: 361px;
-    height: 334px;
-    backdrop-filter: blur(2px);
-    margin: 10px;
 
-}
-
-.bluecard3 {
-    border-radius: 20px;
-    border: 2px solid #2A3744;
-    background: #121E28;
-    width: 361px;
-    height: 334px;
-    backdrop-filter: blur(2px);
-    margin: 10px;
-}
 
 .cardtextwhite {
     font-weight: 700;
+    font-size: 20px;
     color: white
 }
 
 .smallwordswhite {
     font-size: 17px;
     color: white;
-    font-weight: 600;
     margin-right: 30px;
     margin-top: 10px;
 }
@@ -534,4 +518,113 @@ input::placeholder {
 .arrowwhite {
     margin-left: 10px;
     color: aliceblue;
+}
+
+.starplacement {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goosidea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ideatext {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    height: 100px;
+}
+
+.emailbutton {
+    margin: 10px;
+    width: 280px;
+    height: 84px;
+    display: flex;
+
+
+    border-radius: 16px;
+    flex-direction: row;
+    background: var(--purple-light, #E2C1F9)
+}
+
+.telegrambutton {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 84px;
+    border-radius: 16px;
+    background: #FFC803;
+}
+
+.lefticon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+
+}
+
+.topicon {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.iconsection {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 100%;
+
+}
+
+.smalliconsection {
+    background: #e0b92f;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.smalliconsection2 {
+    background: #dfabe0;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.icontext {
+    margin-top: 20px;
+    color: #4D3705;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.iconsmalltext {
+    color: #4D3705;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 15px;
 }

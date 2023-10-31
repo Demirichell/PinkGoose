@@ -45,3 +45,8 @@ h3 {
 p2 {
     font-weight: 700;
 }
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
