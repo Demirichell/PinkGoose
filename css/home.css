@@ -133,11 +133,16 @@
 }
 
 .projects {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     height: 32px;
     width: auto;
     background-color: rgba(255, 180, 211, 1);
     position: absolute;
     margin-top: 540px;
+
     border-radius: 100px;
 }
 
@@ -491,7 +496,7 @@ input::placeholder {
     border-radius: 20px;
     border: 2px solid #2A3744;
     background: #121E28;
-    width: 370px;
+    width: 450px;
     height: 334px;
     backdrop-filter: blur(2px);
     margin: 30px;
