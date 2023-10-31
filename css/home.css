@@ -319,6 +319,7 @@ li.staritems {
     border: 2px solid #2A3744;
     background: #121E28;
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .latest {
@@ -385,11 +386,11 @@ input::placeholder {
     justify-content: center;
     width: 1141px;
     height: 494px;
-    border: 1px outset rgb(22, 8, 219);
+    margin-bottom: 100px;
+    /* border: 1px outset rgb(22, 8, 219); */
 }
 
 .presscard1 {
-
     width: 370px;
     height: 382px;
     background: #77E6FF;
@@ -467,15 +468,20 @@ input::placeholder {
 .bottemwords {
     display: flex;
     width: 100%;
-    justify-content: right;
-    text-align: right;
-    height: 120px;
+    justify-content: flex-start;
+    margin-right: 20px;
+    padding-top: 90px;
+}
 
+
+
+.blackarrow {
+    width: 13px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 4px;
 }
 
 .arrow2 {
-    margin-top: 90px;
-    color: #121E28;
-    width: 13px;
-    height: 12px;
+    margin-left: 10px;
 }
