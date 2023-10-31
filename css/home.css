@@ -530,3 +530,8 @@ input::placeholder {
     margin-right: 30px;
     margin-top: 10px;
 }
+
+.arrowwhite {
+    margin-left: 10px;
+    color: aliceblue;
+}
