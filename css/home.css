@@ -389,6 +389,7 @@ input::placeholder {
 }
 
 .presscard1 {
+
     width: 370px;
     height: 382px;
     background: #77E6FF;
@@ -466,12 +467,14 @@ input::placeholder {
 .bottemwords {
     display: flex;
     width: 100%;
-    justify-self: first baseline;
+    justify-content: right;
+    text-align: right;
     height: 120px;
 
 }
 
 .arrow2 {
+    margin-top: 90px;
     color: #121E28;
     width: 13px;
     height: 12px;
