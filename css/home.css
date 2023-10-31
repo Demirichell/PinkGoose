@@ -517,3 +517,16 @@ input::placeholder {
     backdrop-filter: blur(2px);
     margin: 10px;
 }
+
+.cardtextwhite {
+    font-weight: 700;
+    color: white
+}
+
+.smallwordswhite {
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 10px;
+}
