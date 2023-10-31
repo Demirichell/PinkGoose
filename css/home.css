@@ -389,7 +389,7 @@ input::placeholder {
 }
 
 .presscard1 {
-    width: 361px;
+    width: 370px;
     height: 382px;
     background: #77E6FF;
     border-radius: 20px;
@@ -397,21 +397,82 @@ input::placeholder {
 }
 
 .presscard2 {
-    width: 361px;
+    width: 370px;
     height: 382px;
-    background: #77E6FF;
+    background: #E2C1F9;
     border-radius: 20px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .presscard3 {
-    width: 361px;
+    width: 370px;
     height: 382px;
-    background: #77E6FF;
+    background: #DBE268;
     border-radius: 20px;
-    margin: 10px;
+    margin: 24px;
 }
 
 .cardtitle {
+    display: flex;
     width: 100%;
+    text-align: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+}
+
+.cardimg {
+    width: 120px;
+    height: 39px;
+}
+
+.bigtext {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: start;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+
+.cardtext {
+    font-weight: 700;
+    color: #121E28;
+    margin-right: 30px;
+}
+
+.smalltext {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.smallwords {
+    font-size: 17px;
+    color: #121E28;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.space {
+    margin-bottom: 10px;
+}
+
+.bottemwords {
+    display: flex;
+    width: 100%;
+    justify-self: first baseline;
+    height: 120px;
+
+}
+
+.arrow2 {
+    color: #121E28;
+    width: 13px;
+    height: 12px;
 }
