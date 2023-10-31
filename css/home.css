@@ -485,3 +485,35 @@ input::placeholder {
 .arrow2 {
     margin-left: 10px;
 }
+
+.bluecard1 {
+    border-radius: 20px;
+    border: 2px solid #2A3744;
+    background: #121E28;
+    width: 361px;
+    height: 334px;
+    backdrop-filter: blur(2px);
+    margin: 10px;
+
+}
+
+.bluecard2 {
+    border-radius: 20px;
+    border: 2px solid #2A3744;
+    background: #121E28;
+    width: 361px;
+    height: 334px;
+    backdrop-filter: blur(2px);
+    margin: 10px;
+
+}
+
+.bluecard3 {
+    border-radius: 20px;
+    border: 2px solid #2A3744;
+    background: #121E28;
+    width: 361px;
+    height: 334px;
+    backdrop-filter: blur(2px);
+    margin: 10px;
+}
