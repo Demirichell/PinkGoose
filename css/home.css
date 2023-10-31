@@ -547,8 +547,6 @@ input::placeholder {
     width: 280px;
     height: 84px;
     display: flex;
-
-
     border-radius: 16px;
     flex-direction: row;
     background: var(--purple-light, #E2C1F9)
