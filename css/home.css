@@ -352,18 +352,66 @@ input::placeholder {
     margin-left: 20px;
 }
 
-.press {
-    width: 1141px;
-    height: 494px;
-    border: 1px outset rgb(22, 8, 219);
-}
+
 
 .pressheader {
-    width: 100%;
+    width: 70%;
     justify-content: center;
     display: flex;
 }
 
 .presstext {
+    display: flex;
     width: 50%;
+    justify-content: flex-start;
+}
+
+.presstext2 {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+}
+
+.arrowtext {
+    font-weight: 700;
+    color: #8395A7;
+    padding-right: 5px;
+}
+
+.press {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1141px;
+    height: 494px;
+    border: 1px outset rgb(22, 8, 219);
+}
+
+.presscard1 {
+    width: 361px;
+    height: 382px;
+    background: #77E6FF;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.presscard2 {
+    width: 361px;
+    height: 382px;
+    background: #77E6FF;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.presscard3 {
+    width: 361px;
+    height: 382px;
+    background: #77E6FF;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.cardtitle {
+    width: 100%;
 }
