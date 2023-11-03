@@ -31,6 +31,14 @@ li {
     font-size: 20px;
 }
 
+li :hover {
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: .3s;
+    color: rgba(255, 180, 211, 1);
+    ;
+}
+
 .navright {
     display: flex;
     width: 33%;
