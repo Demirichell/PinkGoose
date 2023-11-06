@@ -32,8 +32,8 @@ li {
 }
 
 li :hover {
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
     transition: .3s;
     color: rgba(255, 180, 211, 1);
     ;
