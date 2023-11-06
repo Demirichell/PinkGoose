@@ -36,6 +36,10 @@
 
 }
 
+#positionimg {
+    margin-bottom: 30px;
+}
+
 .aboutsection {
     width: 100%;
     display: flex;

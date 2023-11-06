@@ -397,30 +397,26 @@ input::placeholder {
     /* border: 1px outset rgb(22, 8, 219); */
 }
 
-.presscard1 {
+.presscard {
     width: 370px;
     height: 382px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#blue {
     background: #77E6FF;
-    border-radius: 20px;
-    margin: 10px;
 }
 
-.presscard2 {
-    width: 370px;
-    height: 382px;
+#pink {
     background: #E2C1F9;
-    border-radius: 20px;
-    margin: 10px;
-    padding-bottom: -20px;
 }
 
-.presscard3 {
-    width: 370px;
-    height: 382px;
+#yellow {
     background: #DBE268;
-    border-radius: 20px;
-    margin: 10px;
 }
+
+
 
 .cardtitle {
     display: flex;
