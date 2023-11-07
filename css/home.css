@@ -112,6 +112,34 @@
 
 }
 
+#pink-letters {
+    color: #FFB4D3;
+}
+
+#yellow-letters {
+    color: #FFC24C;
+}
+
+#purple-letters {
+    color: #D387F7;
+}
+
+#dark-blue-letters {
+    color: #77E6FF;
+}
+
+#light-blue-letters {
+    color: #23C9DE;
+}
+
+#red-letters {
+    color: #FF9E9E;
+}
+
+#grey-letters {
+    color: #707F8D;
+}
+
 .optionplacement {
     display: flex;
     align-items: center;
@@ -196,7 +224,7 @@ ul.summary {
 
 }
 
-li.summaryitem {
+li.summary-item {
     color: #37424D;
     display: inline-block;
     font-size: 54px;
@@ -204,7 +232,7 @@ li.summaryitem {
     transition: .3s;
 }
 
-li.summaryitem:hover {
+li.summary-item:hover {
     color: pink;
 }
 
@@ -530,7 +558,7 @@ input::placeholder {
     align-items: center;
 }
 
-.goosidea {
+.goos-idea {
     width: 100%;
     display: flex;
     flex-direction: column;

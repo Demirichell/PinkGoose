@@ -102,13 +102,16 @@ textarea {
 
 
 
-
+option :hover {
+    background-color: #2A3744;
+}
 
 .dropdown-content :hover {
 
     display: none;
     height: 68px;
     border: 2px solid #2A3744;
+    background-color: #2A3744;
     color: #2A3744;
 }
 
@@ -118,6 +121,7 @@ textarea {
     border-radius: 16px;
     border: 2px solid #2A3744;
     color: #3D4C5B;
+    background-color: #121E28;
 }
 
 .send {
